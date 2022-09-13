@@ -1,0 +1,804 @@
+@media (min-width:1400px) {}
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .logo img {
+        width: 90px;
+        height: 90px;
+        padding: 5px 0px 0px 5px;
+    }
+    .menu-item ul {
+        width: 70%;
+    }
+    .menu-item ul li a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .logo img {
+        width: 80px;
+        height: 80px;
+        padding: 5px 0px 0px 5px;
+    }
+    .menu-item ul {
+        width: 68%;
+    }
+    .menu-item ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .logo img {
+        width: 80px;
+        height: 80px;
+        padding: 5px 0px 0px 5px;
+    }
+    .menu-item {
+        position: absolute;
+        top: 12%;
+        right: 5%;
+        display: none;
+    }
+    .menu-item ul {
+        flex-direction: column;
+        text-align: right;
+        width: 130px;
+    }
+    .menu-item ul li {
+        margin-bottom: 10px;
+    }
+    .menu-item ul li a {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .togg {
+        display: block;
+        position: relative;
+    }
+    .togol-menu {
+        float: right;
+        margin-right: 25px;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+    .bottom-header {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .btm-left {
+        width: 90%;
+        text-align: left;
+    }
+    .btm-left h3 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .btm-left h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .btm-left p {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+    .btm-left a {
+        font-size: 22px;
+        padding: 5px 10px;
+        border-radius: 0px 10px 0px 10px;
+    }
+    .btm-left a:hover {
+        border-radius: 10px 0px 10px 0px;
+    }
+    .btm-right {
+        padding-top: 40px;
+        height: 320px;
+        width: 450px;
+        text-align: center;
+    }
+    .about {
+        display: block;
+    }
+    .about-left .image {
+        display: none;
+    }
+    .about-left {
+        width: 90%;
+    }
+    .aboutus h1 {
+        padding: 20px 0px 0px 0px;
+    }
+    .bio {
+        padding-top: 0px;
+    }
+    .bio h2 {
+        font-size: 25px;
+    }
+    .bio h3 {
+        font-size: 20px;
+    }
+    .bio p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .about-right {
+        padding: 20px;
+        width: 95%;
+    }
+    .socil h2 {
+        text-align: center;
+    }
+    .fb,
+    .insta,
+    .twi,
+    .whats,
+    .linkdin,
+    .git,
+    .web {
+        margin-bottom: 25px;
+    }
+    .fb a i,
+    .insta a i,
+    .twi a i,
+    .whats a i,
+    .linkdin i,
+    .git a i,
+    .web a i {
+        font-size: 30px;
+    }
+    .fb a,
+    .insta a,
+    .twi a,
+    .whats a,
+    .linkdin a,
+    .git a,
+    .web a {
+        font-size: 30px;
+    }
+    .service-header {
+        width: 75%;
+    }
+    .service-header h1 {
+        font-size: 30px;
+    }
+    .servise-main {
+        /* display: block; */
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 5px 20px 5px;
+    }
+    .box {
+        box-shadow: 0px 0px 8px 4px gray;
+        padding: 10px 20px 20px 20px;
+    }
+    .box:hover {
+        box-shadow: 0px 0px 8px 4px rgb(122, 36, 101);
+    }
+    .icon {
+        font-size: 33px;
+    }
+    .box-content h2 {
+        font-size: 30px;
+        padding: 0px 0px 10px 0px;
+    }
+    .box-content p {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .box-content a {
+        padding: 5px 10px;
+        font-size: 22px;
+    }
+    .contact-main {
+        width: 85%;
+        padding: 20px 0px 10px 0px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .logo img {
+        width: 80px;
+        height: 80px;
+        padding: 5px 0px 0px 5px;
+    }
+    .menu-item {
+        position: absolute;
+        top: 8%;
+        right: 6%;
+        display: none;
+    }
+    .menu-item ul {
+        flex-direction: column;
+        text-align: right;
+        width: 130px;
+    }
+    .menu-item ul li {
+        margin-bottom: 10px;
+    }
+    .menu-item ul li a {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .togg {
+        display: block;
+        position: relative;
+    }
+    .togol-menu {
+        float: right;
+        margin-right: 25px;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+    .bottom-header {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .btm-left {
+        width: 90%;
+        text-align: left;
+    }
+    .btm-left h3 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    .btm-left h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .btm-left p {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+    .btm-left a {
+        font-size: 22px;
+        padding: 5px 10px;
+        border-radius: 0px 10px 0px 10px;
+    }
+    .btm-left a:hover {
+        border-radius: 10px 0px 10px 0px;
+    }
+    .btm-right {
+        padding-top: 40px;
+        height: 320px;
+        width: 450px;
+        text-align: center;
+    }
+    .about {
+        display: block;
+    }
+    .about-left .image {
+        display: none;
+    }
+    .about-left {
+        width: 90%;
+    }
+    .aboutus h1 {
+        padding: 20px 0px 0px 0px;
+    }
+    .bio {
+        padding-top: 0px;
+    }
+    .bio h2 {
+        font-size: 25px;
+    }
+    .bio h3 {
+        font-size: 20px;
+    }
+    .bio p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .about-right {
+        padding: 20px;
+        width: 95%;
+    }
+    .socil h2 {
+        text-align: center;
+    }
+    .fb,
+    .insta,
+    .twi,
+    .whats,
+    .linkdin,
+    .git,
+    .web {
+        margin-bottom: 25px;
+    }
+    .fb a i,
+    .insta a i,
+    .twi a i,
+    .whats a i,
+    .linkdin i,
+    .git a i,
+    .web a i {
+        font-size: 30px;
+    }
+    .fb a,
+    .insta a,
+    .twi a,
+    .whats a,
+    .linkdin a,
+    .git a,
+    .web a {
+        font-size: 30px;
+    }
+    .service-header {
+        width: 75%;
+    }
+    .service-header h1 {
+        font-size: 30px;
+    }
+    .servise-main {
+        /* display: block; */
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 5px 20px 5px;
+    }
+    .box {
+        box-shadow: 0px 0px 8px 4px gray;
+        padding: 10px 20px 20px 20px;
+    }
+    .box:hover {
+        box-shadow: 0px 0px 8px 4px rgb(122, 36, 101);
+    }
+    .icon {
+        font-size: 33px;
+    }
+    .box-content h2 {
+        font-size: 30px;
+        padding: 0px 0px 10px 0px;
+    }
+    .box-content p {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .box-content a {
+        padding: 5px 10px;
+        font-size: 22px;
+    }
+    .contact {
+        padding: 50px 0px;
+    }
+    .contact-main {
+        width: 95%;
+        padding: 20px 0px 10px 0px;
+    }
+    .contact-main h1 {
+        font-size: 35px;
+    }
+    .con_main {
+        width: 80%;
+    }
+    .con_div {
+        padding: 10px 0px;
+    }
+    .con_div label {
+        font-size: 18px;
+    }
+    .con_div input {
+        height: 33px;
+        font-size: 18px;
+    }
+    .submit {
+        padding: 18px 0px 0px 0px;
+    }
+    .sub {
+        padding: 4px 8px;
+        font-size: 18px;
+    }
+    .main_map h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:321px) and (max-width:575px) {
+    .logo img {
+        width: 60px;
+        height: 60px;
+        padding: 5px 0px 0px 5px;
+    }
+    .menu-item {
+        position: absolute;
+        top: 9%;
+        right: 5%;
+        display: none;
+    }
+    .menu-item ul {
+        flex-direction: column;
+        text-align: right;
+        width: 130px;
+    }
+    .menu-item ul li a {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+    .togg {
+        display: block;
+        /* float: left; */
+        position: relative;
+    }
+    .togol-menu {
+        float: right;
+        margin-right: 20px;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+    .bottom-header {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .btm-left {
+        width: 90%;
+        text-align: left;
+    }
+    .btm-left h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .btm-left h1 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .btm-left p {
+        font-size: 18px;
+        text-align: justify;
+        padding-bottom: 15px;
+    }
+    .btm-left a {
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 0px 10px 0px 10px;
+    }
+    .btm-left a:hover {
+        border-radius: 10px 0px 10px 0px;
+    }
+    .btm-right {
+        padding-top: 20px;
+        height: 220px;
+        width: 330px;
+        text-align: center;
+    }
+    .about {
+        display: block;
+    }
+    .about-left .image {
+        display: none;
+    }
+    .about-left {
+        width: 90%;
+    }
+    .aboutus h1 {
+        padding: 20px 0px 0px 0px;
+    }
+    .bio {
+        padding-top: 0px;
+    }
+    .bio h2 {
+        font-size: 22px;
+    }
+    .bio h3 {
+        font-size: 18px;
+    }
+    .bio p {
+        font-size: 17px;
+        text-align: justify;
+    }
+    .about-right {
+        padding: 20px;
+        width: 95%;
+    }
+    .socil h2 {
+        text-align: center;
+    }
+    .fb,
+    .insta,
+    .twi,
+    .whats,
+    .linkdin,
+    .git,
+    .web {
+        margin-bottom: 25px;
+    }
+    .fb a i,
+    .insta a i,
+    .twi a i,
+    .whats a i,
+    .linkdin i,
+    .git a i,
+    .web a i {
+        font-size: 25px;
+    }
+    .fb a,
+    .insta a,
+    .twi a,
+    .whats a,
+    .linkdin a,
+    .git a,
+    .web a {
+        font-size: 20px;
+    }
+    .service-header {
+        width: 95%;
+    }
+    .service-header h1 {
+        font-size: 30px;
+    }
+    .servise-main {
+        /* display: block; */
+        flex-direction: column;
+        column-gap: 10px;
+        padding: 25px 5px 20px 5px;
+    }
+    .box {
+        box-shadow: 0px 0px 8px 4px gray;
+        padding: 10px 20px 20px 20px;
+    }
+    .box:hover {
+        box-shadow: 0px 0px 8px 4px rgb(122, 36, 101);
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .box-content h2 {
+        font-size: 26px;
+        padding: 0px 0px 10px 0px;
+    }
+    .box-content p {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .box-content a {
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .contact {
+        padding: 50px 0px;
+    }
+    .contact-main {
+        width: 95%;
+        padding: 20px 0px 10px 0px;
+    }
+    .contact-main h1 {
+        font-size: 30px;
+    }
+    .con_main {
+        width: 80%;
+    }
+    .con_div {
+        padding: 8px 0px;
+    }
+    .con_div label {
+        font-size: 15px;
+    }
+    .con_div input {
+        height: 30px;
+        font-size: 15px;
+    }
+    .submit {
+        padding: 15px 0px 0px 0px;
+    }
+    .sub {
+        padding: 2px 8px;
+        font-size: 15px;
+    }
+    .main_map h1 {
+        font-size: 20px;
+    }
+    .copy_right {
+        background-color: gray;
+        padding: 5px 0px;
+    }
+    .copy_right p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo img {
+        width: 50px;
+        height: 50px;
+        padding: 5px 0px 0px 5px;
+    }
+    .menu-item {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        display: none;
+    }
+    .menu-item ul {
+        flex-direction: column;
+        text-align: right;
+        width: 130px;
+    }
+    .menu-item ul li a {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+    .togg {
+        display: block;
+        /* float: left; */
+        position: relative;
+    }
+    .togol-menu {
+        float: right;
+        margin-right: 10px;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+    .bottom-header {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+    .btm-left {
+        width: 90%;
+        text-align: left;
+    }
+    .btm-left h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .btm-left h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .btm-left p {
+        font-size: 15px;
+        text-align: justify;
+        padding-bottom: 15px;
+    }
+    .btm-left a {
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 0px 10px 0px 10px;
+    }
+    .btm-left a:hover {
+        border-radius: 10px 0px 10px 0px;
+    }
+    .btm-right {
+        padding-top: 20px;
+        height: 220px;
+        width: 100%;
+        text-align: center;
+    }
+    .about {
+        display: block;
+    }
+    .about-left .image {
+        display: none;
+    }
+    .about-left {
+        width: 90%;
+    }
+    .aboutus h1 {
+        padding: 20px 0px 0px 0px;
+    }
+    .bio {
+        padding-top: 0px;
+    }
+    .bio h2 {
+        font-size: 22px;
+    }
+    .bio h3 {
+        font-size: 18px;
+    }
+    .bio p {
+        font-size: 17px;
+        text-align: justify;
+    }
+    .about-right {
+        padding: 20px;
+        width: 95%;
+    }
+    .socil h2 {
+        text-align: center;
+    }
+    .fb,
+    .insta,
+    .twi,
+    .whats,
+    .linkdin,
+    .git,
+    .web {
+        margin-bottom: 25px;
+    }
+    .fb a i,
+    .insta a i,
+    .twi a i,
+    .whats a i,
+    .linkdin i,
+    .git a i,
+    .web a i {
+        font-size: 25px;
+    }
+    .fb a,
+    .insta a,
+    .twi a,
+    .whats a,
+    .linkdin a,
+    .git a,
+    .web a {
+        font-size: 20px;
+    }
+    .service-header {
+        width: 95%;
+    }
+    .service-header h1 {
+        font-size: 30px;
+    }
+    .servise-main {
+        /* display: block; */
+        flex-direction: column;
+        column-gap: 10px;
+        padding: 25px 5px 20px 5px;
+    }
+    .box {
+        box-shadow: 0px 0px 8px 4px gray;
+        padding: 10px 20px 20px 20px;
+    }
+    .box:hover {
+        box-shadow: 0px 0px 8px 4px rgb(122, 36, 101);
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .box-content h2 {
+        font-size: 26px;
+        padding: 0px 0px 10px 0px;
+    }
+    .box-content p {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .box-content a {
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .contact {
+        padding: 50px 0px;
+    }
+    .contact-main {
+        width: 95%;
+        padding: 20px 0px 10px 0px;
+    }
+    .contact-main h1 {
+        font-size: 30px;
+    }
+    .con_main {
+        width: 80%;
+    }
+    .con_div {
+        padding: 8px 0px;
+    }
+    .con_div label {
+        font-size: 15px;
+    }
+    .con_div input {
+        height: 30px;
+        font-size: 15px;
+    }
+    .submit {
+        padding: 15px 0px 0px 0px;
+    }
+    .sub {
+        padding: 2px 8px;
+        font-size: 15px;
+    }
+    .main_map h1 {
+        font-size: 20px;
+    }
+    .copy_right {
+        background-color: gray;
+        padding: 5px 0px;
+    }
+    .copy_right p {
+        font-size: 13px;
+    }
+}
